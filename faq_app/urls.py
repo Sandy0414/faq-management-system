@@ -23,5 +23,5 @@ router = DefaultRouter()
 router.register(r'faqs',FAQViewSet)
 
 urlpatterns = [
-    path('', include(router.urls)),
+    path('faqs/', include(router.urls)),
 ]
