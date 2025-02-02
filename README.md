@@ -1,10 +1,10 @@
- 📖 Overview
+ 📖Overview
 
 A multilingual FAQ management system built with Django. The system allows the storage and management of FAQs, integrating a WYSIWYG editor for content formatting,
 multilingual support with dynamic translations, and caching for optimal performance.This Django REST API provides multilingual support for frequently asked questions(FAQs)using Google
 Translate.The application includes caching with Redis for optimized performance.
 
-**🎯Key Features**:
+**🎯Key Features**
 - **FAQ Model**: Store questions and answers in multiple languages.
 - **WYSIWYG Editor**: Rich text formatting support via django-ckeditor.
 - **Multilingual Support**: Translations managed via Google Translate API and googletrans.
@@ -14,7 +14,7 @@ Translate.The application includes caching with Redis for optimized performance.
 - **Testing**: Unit tests written with `pytest` to ensure code quality.
 
 
-🛠️ Installation 
+🛠️Installation 
 Requirements:
 - Python 3.13
 - Django
