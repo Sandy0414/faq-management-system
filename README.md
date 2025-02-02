@@ -1,10 +1,10 @@
- 📖Overview
+## 📖Overview
 
 A multilingual FAQ management system built with Django. The system allows the storage and management of FAQs, integrating a WYSIWYG editor for content formatting,
 multilingual support with dynamic translations, and caching for optimal performance.This Django REST API provides multilingual support for frequently asked questions(FAQs)using Google
 Translate.The application includes caching with Redis for optimized performance.
 
-**🎯Key Features**
+## 🎯 Key Features
 - **FAQ Model**: Store questions and answers in multiple languages.
 - **WYSIWYG Editor**: Rich text formatting support via django-ckeditor.
 - **Multilingual Support**: Translations managed via Google Translate API and googletrans.
@@ -14,7 +14,7 @@ Translate.The application includes caching with Redis for optimized performance.
 - **Testing**: Unit tests written with `pytest` to ensure code quality.
 
 
-🛠️Installation 
+## 🛠️ Installation 
 Requirements:
 - Python 3.13
 - Django
@@ -23,7 +23,7 @@ Requirements:
 - Redis
 - Google Translate API (or googletrans)
 
-### Steps: 
+## Steps: 
 
 1. Clone the Repository
 
@@ -55,7 +55,7 @@ docker-compose up --build
 
 python manage.py runserver
 
-🌍 API Usage
+## 🌍 API Usage
 
 Fetch FAQs by Language
 
@@ -83,14 +83,14 @@ To create a new FAQ, use the following format for a POST request:
   "answer_hi": "डजैंगो एक उच्च-स्तरीय पायथन वेब फ्रेमवर्क है।"
 }
 
-🧪 Testing
+## 🧪 Testing
 
 Unit tests are written using pytest. Run tests with the following command:
 
 pytest
 
 
-⚙️ Git & Version Control
+## ⚙️ Git & Version Control
 
 Commit Guidelines
 
@@ -108,7 +108,7 @@ fix: Improves translation caching
 docs: Update README with API examples
 
 
-🐳 Docker Support
+## 🐳 Docker Support
 
 Steps to run in Docker:
 
@@ -122,11 +122,11 @@ docker build -t faq-management-system .
 docker run -p 8000:8000 faq-management-system
 
 
-🚀 Deployment
+## 🚀 Deployment
 
 You can deploy this application to platforms like Heroku or AWS. Follow their respective documentation for deployment instructions.
 
-🤝 Contributing
+## 🤝 Contributing
 
 1. Fork the repository.
 
@@ -139,7 +139,7 @@ You can deploy this application to platforms like Heroku or AWS. Follow their re
 5. Open a Pull Request.
    
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 
