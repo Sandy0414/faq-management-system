@@ -19,7 +19,7 @@ Requirements:
 - Python 3.13
 - Django
 - django-ckeditor
-- Docker & Dcker Compose
+- Docker & Docker Compose
 - Redis
 - Google Translate API (or googletrans)
 
@@ -125,7 +125,7 @@ docker run -p 8000:8000 faq-management-system
 
 ## 🚀 Deployment
 
-You can deploy this application to platforms like Heroku or AWS. Follow their respective documentation for deployment instructions.
+Deployed this application using platform Heroku.
 
 ## 🤝 Contributing
 
