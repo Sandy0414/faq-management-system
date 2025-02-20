@@ -28,33 +28,34 @@ Requirements:
 1. Clone the Repository
 
 git clone https://github.com/Sandy0414/faq-management-system.git 
+'''
 cd faq-management-system
-
+'''
 2. Create a Virtual Environment
-
+'''
 python -m venv venv 
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
-
+'''
 3. Install Dependencies
-
+'''
 pip install -r requirements.txt
-
+'''
 4. Run Migrations
-
+'''
 python manage.py migrate
-
+'''
 5. Start Redis (If running locally, install Redis and start the service)
-
+'''
 redis-server
-
+'''
 8. Docker Setup 
-
+'''
 docker-compose up --build
-
+'''
 7. Run the Development Server
-
+'''
 python manage.py runserver
-
+'''
 ## 🌍 API Usage
 
 Fetch FAQs by Language
