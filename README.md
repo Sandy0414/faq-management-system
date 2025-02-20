@@ -145,10 +145,5 @@ You can deploy this application to platforms like Heroku or AWS. Follow their re
 This project is licensed under the MIT License.
 
 
-### Why use this structure?
-- **Icons and emojis**: These make the document more visually appealing and easier to scan.
-- **Clear sectioning**: Well-defined sections with bold headers make it easier to navigate.
-- **Code snippets**: Enclosed in code blocks to improve readability and clarity.
-- **Simple formatting**: Using markdown to highlight key points like features, installation, and API usage.
 
 
